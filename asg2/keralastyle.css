@@ -1,0 +1,142 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+}
+.bgcover{
+    margin: 0;
+    padding:0;
+    background-color: gray;
+}
+.pxwide{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.login-box{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;  
+}
+.container{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 400px;
+}
+.bckpic{
+    height:"auto";
+    width:"100%";
+    background-size: cover;
+    background-size: contain;
+    opacity: 0.3;
+}
+.login-box h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    color: white;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.textbox i{
+    /* width: 10px; */
+    float: left;
+    
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+
+.bttn{
+    width: 100%;
+    /* background: none; */
+    background-color: black;
+    border:  2px solid #0f75b9;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 12px 0;
+    border-radius: 4px;
+}
+.bttn:hover{
+    background-color: gray;
+}
+
+/* district page */
+.container{
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    margin: 20px 40px;
+}
+div.gallery{
+    float: left;
+    width: 20%;
+    margin: 5px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+div.gallery:hover{
+    border: 2px solid black;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    
+}
+div.gallery img{
+    height: auto;
+    width: 100%;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+/* style for each district page */
+.district{
+    margin: 13px;
+}
+.district h1 {
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+.district img{
+    width: 300px;
+    height: 250px;
+}
+div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#mainPic{
+    padding-left: 26%;
+    height: 400px;
+    width: 650px;
+}
